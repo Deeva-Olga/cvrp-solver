@@ -43,11 +43,16 @@
 1. Скачайте тестовые задачи с официального сайта:  
    [http://vrp.atd-lab.inf.puc-rio.br](http://vrp.atd-lab.inf.puc-rio.br/index.php/en/)
 2. Разместите файлы по структуре:
+
 data/
+
 ├── E/ → E-.vrp + E-.sol
+
 ├── F/ → F-.vrp + F-.sol
+
 ├── M/ → M-.vrp + M-.sol
+
 └── P/ → P-.vrp + P-.sol
-3. Запустите решатель:
+4. Запустите решатель:
 ```bash
 python solver.py
